@@ -674,7 +674,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_Float = 4;
+    public static final byte CONSTANT_FLOAT = 4;
 
     /**
      * Marks a constant pool entry as type Long: {@value}.
@@ -684,7 +684,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_Long = 5;
+    public static final byte CONSTANT_LONG = 5;
 
     /**
      * Marks a constant pool entry as type Double: {@value}.
@@ -694,7 +694,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_Double = 6;
+    public static final byte CONSTANT_DOUBLE = 6;
 
     /**
      * Marks a constant pool entry as a Class: {@value}.
@@ -704,7 +704,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_Class = 7;
+    public static final byte CONSTANT_CLASS = 7;
 
     /**
      * Marks a constant pool entry as a Field Reference: {@value}.
@@ -714,7 +714,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_Fieldref = 9;
+    public static final byte CONSTANT_FIELDREF = 9;
 
     /**
      * Marks a constant pool entry as type String: {@value}.
@@ -724,7 +724,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_String = 8;
+    public static final byte CONSTANT_STRING = 8;
 
     /**
      * Marks a constant pool entry as a Method Reference: {@value}.
@@ -734,7 +734,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_Methodref = 10;
+    public static final byte CONSTANT_METHODREF = 10;
 
     /**
      * Marks a constant pool entry as an Interface Method Reference: {@value}.
@@ -744,7 +744,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_InterfaceMethodref = 11;
+    public static final byte CONSTANT_INTERFACEMETHODREF = 11;
 
     /**
      * Marks a constant pool entry as a name and type: {@value}.
@@ -754,7 +754,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_NameAndType = 12;
+    public static final byte CONSTANT_NAMEANDTYPE = 12;
 
     /**
      * Marks a constant pool entry as a Method Handle: {@value}.
@@ -785,7 +785,7 @@ public final class Const {
      *      Java Virtual Machine Specification</a>
      * @since 6.3
      */
-    public static final byte CONSTANT_Dynamic = 17;
+    public static final byte CONSTANT_DYNAMIC = 17;
 
     /**
      * Marks a constant pool entry as an Invoke Dynamic: {@value}.
@@ -795,7 +795,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_InvokeDynamic = 18;
+    public static final byte CONSTANT_INVOKEDYNAMIC = 18;
 
     /**
      * Marks a constant pool entry as a Module Reference: {@value}.
@@ -806,7 +806,7 @@ public final class Const {
      *      Java Virtual Machine Specification</a>
      * @since 6.1
      */
-    public static final byte CONSTANT_Module = 19;
+    public static final byte CONSTANT_MODULE = 19;
 
     /**
      * Marks a constant pool entry as a Package Reference: {@value}.
@@ -817,7 +817,7 @@ public final class Const {
      *      Java Virtual Machine Specification</a>
      * @since 6.1
      */
-    public static final byte CONSTANT_Package = 20;
+    public static final byte CONSTANT_PACKAGE = 20;
 
     /**
      * The names of the types of entries in a constant pool. Use getConstantName
