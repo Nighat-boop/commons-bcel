@@ -3520,9 +3520,7 @@ public final class Const {
      * The signature characters corresponding to primitive types, e.g.,
      * SHORT_TYPE_NAMES[T_INT] = "I"
      */
-    public static final String[] SHORT_TYPE_NAMES = { ILLEGAL_TYPE, ILLEGAL_TYPE, ILLEGAL_TYPE, ILLEGAL_TYPE, "Z", "C",
-            "F", "D", "B", "S", "I", "J", "V",
-            ILLEGAL_TYPE, ILLEGAL_TYPE, ILLEGAL_TYPE };
+    protected static final String[] SHORT_TYPE_NAMES = { ILLEGAL_TYPE, ILLEGAL_TYPE, ILLEGAL_TYPE, ILLEGAL_TYPE, "Z", "C" };
 
     /**
      * Number of byte code operands for each opcode, i.e., number of bytes after the
