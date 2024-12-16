@@ -1,0 +1,6 @@
+{
+  "sonarlint.connectedMode.project": {
+    "connectionId": "project-part1",
+    "projectKey": "Nighat-boop_commons-bcel"
+  }
+}
