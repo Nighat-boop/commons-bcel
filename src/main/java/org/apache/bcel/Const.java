@@ -764,7 +764,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_MethodHandle = 15;
+    public static final byte CONSTANT_METHODHANDLE = 15;
 
     /**
      * Marks a constant pool entry as a Method Type: {@value}.
@@ -774,7 +774,7 @@ public final class Const {
      *      The Constant Pool in The
      *      Java Virtual Machine Specification</a>
      */
-    public static final byte CONSTANT_MethodType = 16;
+    public static final byte CONSTANT_METHODTYPE = 16;
 
     /**
      * Marks a constant pool entry as dynamically computed: {@value}.
@@ -3883,15 +3883,15 @@ public final class Const {
     /**
      * Constants used in the StackMap attribute.
      */
-    public static final byte ITEM_Bogus = 0;
-    public static final byte ITEM_Integer = 1;
-    public static final byte ITEM_Float = 2;
-    public static final byte ITEM_Double = 3;
-    public static final byte ITEM_Long = 4;
-    public static final byte ITEM_Null = 5;
-    public static final byte ITEM_InitObject = 6;
-    public static final byte ITEM_Object = 7;
-    public static final byte ITEM_NewObject = 8;
+    public static final byte ITEM_BOGUS = 0;
+    public static final byte ITEM_INTEGER = 1;
+    public static final byte ITEM_FLOAT = 2;
+    public static final byte ITEM_DOUBLE = 3;
+    public static final byte ITEM_LONG = 4;
+    public static final byte ITEM_NULL = 5;
+    public static final byte ITEM_INITOBJECT = 6;
+    public static final byte ITEM_OBJECT = 7;
+    public static final byte ITEM_NEWOBJECT = 8;
     private static final String[] ITEM_NAMES = { "Bogus", "Integer", "Float", "Double", "Long", "Null", "InitObject",
             "Object", "NewObject" };
 
