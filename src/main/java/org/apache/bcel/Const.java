@@ -3921,18 +3921,18 @@ public final class Const {
     public static final int SAME_LOCALS_1_STACK_ITEM_FRAME_MAX = 127;
     public static final int CHOP_FRAME_MAX = 250;
     public static final int APPEND_FRAME_MAX = 254;
-    public static final byte REF_getField = 1;
+    public static final byte REF_GETFIELD = 1;
 
-    public static final byte REF_getStatic = 2;
+    public static final byte REF_GETSTATIC = 2;
 
-    public static final byte REF_putField = 3;
+    public static final byte REF_PUTFIELD = 3;
 
-    public static final byte REF_putStatic = 4;
-    public static final byte REF_invokeVirtual = 5;
-    public static final byte REF_invokeStatic = 6;
-    public static final byte REF_invokeSpecial = 7;
-    public static final byte REF_newInvokeSpecial = 8;
-    public static final byte REF_invokeInterface = 9;
+    public static final byte REF_PUTSTATIC = 4;
+    public static final byte REF_INVOKEVIRTUAL = 5;
+    public static final byte REF_INVOKESTATIC = 6;
+    public static final byte REF_INVOKESPECIAL = 7;
+    public static final byte REF_NEWINVOKESPECIAL = 8;
+    public static final byte REF_INVOKEINTERFACE = 9;
 
     /**
      * The names of the reference_kinds of a CONSTANT_MethodHandle_info.
