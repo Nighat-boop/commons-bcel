@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: C:\Users\User\Documents\GitHub\commons-bcel\src\main\java\or
+ g\apache\bcel
+
