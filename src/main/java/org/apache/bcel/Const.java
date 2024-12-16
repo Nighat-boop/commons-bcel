@@ -613,8 +613,6 @@ public final class Const {
      * @see #ACC_PUBLIC
      * @deprecated Use {@link #MAX_ACC_FLAG_I}
      */
-    @Deprecated
-    public static final short MAX_ACC_FLAG = ACC_ENUM;
 
     /**
      * One of the access flags for fields, methods, or classes. ACC_MODULE is
